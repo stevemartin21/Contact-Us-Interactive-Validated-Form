@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Form</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="formStyle.css">
+    <style>
+        @media (max-width: 740px) {
+            .full-height,
+            .full-height body,
+            .full-height header,
+            .full-height header .view {
+                height: 700px; 
+            } 
+        }
+    </style>
+</head>
+
+<div class="container">
+
+        <div class="jumbotron">
+            <h1 class="h1-responsive">Interactive Contact Form</h1>
+            <p class="lead">Form with Javascript Validation</p>
+            <hr class="my-2">
+            <p>Begin
+            </p>
+            
+                    <label class="switch">
+
+                                  <input type="checkbox" id="beginIt">
+                                  <span class="slider round"></span>
+                    </label>
+          
+
+
+            
+              
+        </div>
+
+</div>
+
+
+
+
+
+  <div class="container" id="begin">
+
+    
+
+
+        <form class="range-field">
+                <div class="card">
+                    <div class="card-body">
+
+                                    Contact Us
+                    
+                      
+                     </div>
+                </div>
+
+            <fieldset>
+
+            <!-- Material input text -->
+            <div class="row">
+                <div class="col">
+                    <label for="fname">First Name:<i class="fa fa-user ml-2"></i></label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class="col-5">
+                    <label for="lname">Last Name:<i class="fa fa-user-plus ml-2"></i></label>
+                    <input type="text" id="lname" name="lname">
+                </div>
+                <div class="col">
+                    <label for="email">Email:<i class="fa fa-envelope ml-2"></i></label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+
+            </div>
+
+            </fieldset>
+
+                             <div class="card">
+                        <div class="card-body">
+                            Address
+                        </div>
+                    </div>
+
+
+             <div class="row">
+
+
+
+
+              
+                <div class="col">
+                    <label for="address">Address:<i class="fa fa-address-book ml-2"></i></label>
+                    <input type="text" id="address" name="address">
+                </div>
+                <div class="col">
+                    <label for="city">City:<i class="fa fa-address-card ml-2"></i></label>
+                    <input type="text" id="city" name="city">
+                </div>
+                <div class="col">
+                    <label for="state">State:<i class="fa fa-address-card-o ml-2"></i></label>
+                    <input type="text" id="state" name="state">
+                </div>
+
+                 <div class="col">
+                    <label for="zip">Zip Code:<i class="fa fa-address-book-o ml-2"></i></label>
+                    <input type="text" id="zip" name="zip">
+                </div>
+           
+
+         </div>
+
+<div class="card">
+    <div class="card-body">
+        Options
+    </div>
+</div>
+
+                     
+    <div class="row">
+
+        <div class="col text-center">
+                
+
+            <div class="form-check">
+
+                <h1 class="h1-responsive text-center" id="choices">Choices:<i class="fa fa-reorder ml-2"></i></h1>
+
+            <div class="check">
+                  
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheckbox1">
+                 <label class="form-check-label" for="defaultCheckbox1">
+                     Option 1
+                </label> 
+
+            </div>
+                
+               
+               
+            <div class="check">
+                 <input class="form-check-input" type="checkbox" value="" id="defaultCheckbox2">
+                  <label class="form-check-label" for="defaultCheckbox2">
+                       Option 2
+                </label>
+            </div>
+
+            <div class="check">
+                
+                  
+                 <input class="form-check-input" type="checkbox" value="" id="defaultCheckbox3">
+                 <label class="form-check-label" for="defaultCheckbox3">
+                    Option 3
+                </label>
+            </div>
+
+            <div class="check">
+               
+                
+                 <input class="form-check-input" type="checkbox" value="" id="defaultCheckbox4">
+                  <label class="form-check-label" for="defaultCheckbox4">
+                    Option 4
+                </label>
+            </div>
+                
+            </div>
+        </div>
+
+
+        <div class="col text-center">
+            <h1 class="h1-responsive text-center" id="decisions" >Decisions:<i class="fa fa-th-list ml-2"></i></h1>
+            <div class="form-check mb-4">
+                <input name="group2" type="radio" class="form-check-input" id="radioWithGap4">
+                <label class="form-check-label" for="radioWithGap4">Option 1</label>
+            </div>
+
+            <div class="form-check mb-4">
+                <input name="group2" type="radio" class="form-check-input" id="radioWithGap5">
+                <label class="form-check-label" for="radioWithGap5">Option 2</label>
+            </div>
+
+            <div class="form-check">
+                <input name="group2" type="radio" class="form-check-input" id="radioWithGap6">
+                <label class="form-check-label" for="radioWithGap6">Option 3</label>
+            </div>
+        </div>
+   
+    </div>
+
+
+    <div class="card">
+    <div class="card-body">
+        Payment
+    </div>
+</div>
+
+
+          <div class="row">
+                <div class="col">
+                    <label for="credit">Credit Card Name:<i class="fa fa-credit-card ml-2"></i></label>
+                    <input type="text" id="credit" name="credit">
+                </div>
+                <div class="col-5">
+                    <label for="cardNum">Credit Card Number:<i class="fa fa-credit-card-alt ml-2"></i></label>
+                    <input type="text" id="cardNum" name="cardNum">
+                </div>
+                <div class="col">
+                    <label for="expiration">Expiration Date:<i class="fa fa-calendar ml-2"></i></label>
+                    <input type="text" id="expiration" name="expiration">
+                </div>
+
+                  <div class="col">
+                    <label for="csv">CSV Number:<i class="fa fa-warning ml-2"></i></label>
+                    <input type="text" id="csv" name="csv">
+                </div>
+
+
+
+
+
+     </div>
+
+      <div class="card">
+    <div class="card-body">
+        Request More Information
+    </div>
+</div>
+
+     <div class="row">
+
+        <div class="col text-center">
+            <h1 class="h1-responsive text-center">Membership Type</h1>
+
+            <div class="form-check">
+
+            <div class="check">
+
+                  
+                <input class="form-check-input" type="checkbox" value="" id="platinum">
+                 <label class="form-check-label" for="platinum">
+                     Platinum
+                </label> 
+
+            </div>
+                
+               
+               
+            <div class="check">
+                 <input class="form-check-input" type="checkbox" value="" id="gold">
+                  <label class="form-check-label" for="gold">
+                       Platinum
+                </label>
+            </div>
+
+            <div class="check">
+                
+                  
+                 <input class="form-check-input" type="checkbox" value="" id="silver">
+                 <label class="form-check-label" for="silver">
+                    Platinum
+                </label>
+            </div>
+
+            <div class="check">
+               
+                
+                 <input class="form-check-input" type="checkbox" value="" id="bronze">
+                  <label class="form-check-label" for="bronze">
+                    Platinum
+                </label>
+            </div>
+                
+            </div>
+        </div>
+
+
+<div class="row">
+
+    <div class="col">
+
+            <div class="card" id="platinumClub">
+                <h3 class="card-header primary-color white-text">Platinum</h3>
+                <div class="card-body">
+                    <h4 class="card-title">Special title treatment</h4>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                    <label class="form-check-label" for="defaultCheckbox5">
+                     Select Platinum
+                </label> 
+                     <input class="form-check-input" type="checkbox" value="" id="defaultCheckbox5">
+                </div>
+            </div>
+
+    </div>
+
+     <div class="col">
+
+            <div class="card" id="goldClub">
+                <h3 class="card-header primary-color white-text">Gold</h3>
+                <div class="card-body">
+                    <h4 class="card-title">Special title treatment</h4>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                      <label class="form-check-label" for="defaultCheckbox6">
+                     Select Gold
+                </label>
+                     <input class="form-check-input" type="checkbox" value="" id="defaultCheckbox6">
+                </div>
+            </div>
+
+    </div>
+
+     <div class="col">
+
+            <div class="card" id="silverClub">
+                <h3 class="card-header primary-color white-text">Silver</h3>
+                <div class="card-body">
+                    <h4 class="card-title">Special title treatment</h4>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  
+                      <label class="form-check-label" for="defaultCheckbox7">
+                     Select Silver
+                </label>
+                     <input class="form-check-input" type="checkbox" value="" id="defaultCheckbox7">
+                </div>
+            </div>
+
+    </div>
+
+     <div class="col">
+
+            <div class="card" id="bronzeClub">
+                <h3 class="card-header primary-color white-text">Bronze</h3>
+                <div class="card-body">
+                    <h4 class="card-title">Special title treatment</h4>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <label class="form-check-label" for="defaultCheckbox8">
+                     Select Bronze
+                </label>
+                     <input class="form-check-input" type="checkbox" value="" id="defaultCheckbox8">
+                </div>
+            </div>
+
+    </div>
+
+
+
+</div>
+
+</div>
+        
+  <div class="md-form">
+        <i class="fa fa-pencil prefix grey-text"></i>
+        <textarea type="text" id="materialFormContactMessageEx" class="form-control md-textarea" rows="3"></textarea>
+        <label for="materialFormContactMessageEx">Your message</label>
+    </div>
+
+
+
+           
+            <div class="text-center mt-4">
+                <button class="btn btn-outline-secondary " id="send" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
+            </div>
+        </form>
+    </div>
+<!-- Material form contact -->
+                      
+
+ <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!--  Bootstrap tooltips  -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!--  Bootstrap core JavaScript  -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--  MDB core JavaScript  -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="js/form.js"></script>
+
+    <script>
+        //Animation init
+        new WOW().init();
+        
+        //Modal
+        $('#myModal').on('shown.bs.modal', function () {
+          $('#myInput').focus()
+        })
+        
+        // Material Select Initialization
+        $(document).ready(function() {
+            $('.mdb-select').material_select();
+        });
+        
+        // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
+        });
+    </script>
+    
+</body>
+
+</html>
